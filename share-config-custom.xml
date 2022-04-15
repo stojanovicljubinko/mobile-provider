@@ -1,0 +1,7 @@
+<config evaluator="string-compare" condition="DocLibActions">
+   <actions>
+      <action id="document-download">
+          <evaluator>evaluator.doclib.action.disableAction</evaluator>
+      </action>
+   </actions>
+</config>
