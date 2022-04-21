@@ -7,5 +7,7 @@ Projects implemented at Sinergija University. A mobile provider is a program tha
 * Information windows and application form
 * Automatic storage of requests in memory
 
+For presentation only, access is granted with approval.
+
 ### Screenshot of a given program
  ![Screenshot of a given program](https://github.com/stojanovicljubinko/Mobile-provider/blob/main/photo.png)
