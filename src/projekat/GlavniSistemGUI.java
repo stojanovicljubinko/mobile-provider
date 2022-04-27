@@ -1,5 +1,6 @@
 package projekat;
 
+import java.awt.Toolkit;
 import java.text.DecimalFormat;
 
 public class GlavniSistemGUI extends javax.swing.JFrame {
@@ -50,6 +51,7 @@ public class GlavniSistemGUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Interfejs");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icons/logo.png")));
 
         jButton1.setText("Potvrdi");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

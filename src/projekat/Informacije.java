@@ -1,5 +1,7 @@
 package projekat;
 
+import java.awt.Toolkit;
+
 public class Informacije extends javax.swing.JFrame {
 
     public Informacije() {
@@ -21,6 +23,7 @@ public class Informacije extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Informacije ");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icons/logo.png")));
 
         jLabel1.setText("Paketi");
 
