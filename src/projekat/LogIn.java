@@ -1,6 +1,7 @@
 package projekat;
 
 import java.awt.Color;
+import java.awt.Toolkit;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
@@ -27,6 +28,7 @@ public class LogIn extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Prijavljivanje ");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icons/logo.png")));
 
         jLabel1.setText("Korisnicko ime:");
 

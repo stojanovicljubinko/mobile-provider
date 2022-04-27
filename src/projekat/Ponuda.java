@@ -1,6 +1,6 @@
-
 package projekat;
 
+import java.awt.Toolkit;
 import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
 
@@ -118,6 +118,7 @@ public class Ponuda extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Punuda ");
+        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icons/logo.png")));
 
         tabela_T.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
